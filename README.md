@@ -23,15 +23,17 @@ A responsive dog adoption platform built with **React 18**, **TypeScript**, **Ma
 - **Get Match:** POST /dogs/match
 
 ## ✅ Project Structure
-src/
-├── assets/            # Assets directory
-├── common/            # Reusable components
-├── pages/             # Main pages (Login, Search)
-├── services/          # API service calls
-├── slices/            # Redux slices
-├── types/             # Types directory
-├── store.ts           # Redux store setup
-└── App.tsx            # App entry point
+```bash
+   src/
+   ├── assets/            # Assets directory
+   ├── common/            # Reusable components
+   ├── pages/             # Main pages (Login, Search)
+   ├── services/          # API service calls
+   ├── slices/            # Redux slices
+   ├── types/             # Types directory
+   ├── store.ts           # Redux store setup
+   └── App.tsx            # App entry point
+```
 
 ## ⚙️ Getting Started
 
