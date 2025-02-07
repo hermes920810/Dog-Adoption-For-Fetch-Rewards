@@ -45,7 +45,7 @@ const DogList: React.FC = () => {
     <Box sx={{ p: 3 }}>
       <Typography variant="h4" gutterBottom>Search Dogs</Typography>
 
-      <Box sx={{ display: 'flex', gap: 2, mb: 3 }}>
+      <Box display="flex" sx={{ gap: 2, mb: 3 }}>
         <FormControl fullWidth>
           <InputLabel>Breed</InputLabel>
           <Select label="Breed" value={selectedBreed} onChange={(e) => setSelectedBreed(e.target.value)}>
