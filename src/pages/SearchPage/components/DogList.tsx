@@ -39,7 +39,7 @@ const DogList: React.FC = () => {
   useEffect(() => {
     setPaginationUrl(null); // Reset pagination when filters change
     queryClient.invalidateQueries(['dogs']); // Refetch data
-  }, [selectedBreed, sortOrder, pageSize]);
+  }, [selectedBreed, sortOrder, pageSize, queryClient]);
 
   return (
     <Box sx={{ p: 3 }}>
