@@ -3,7 +3,7 @@ import { DogSearchResponse, SearchParams, DogModel } from '../types';
 
 const api = axios.create({
   baseURL: 'https://frontend-take-home-service.fetch.com',
-  withCredentials: true, // Important for handling auth cookies
+  withCredentials: true,
 });
 
 // Generic API handler
