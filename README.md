@@ -2,6 +2,10 @@
 
 A responsive dog adoption platform built with **React 18**, **TypeScript**, **Material-UI**, **Styled-Component**, **React Query**, and **Redux Toolkit**.
 
+## 🔗 Live Demo Link: [https://dog-adoption-demo.netlify.app/](https://dog-adoption-demo.netlify.app/)
+
+## 🎥 Video Demo: https://www.loom.com/share/db03c8069ca04dc7863f0eba9e04a134?sid=663cd1f2-1c32-47cd-8556-0e2ce45c3da0
+
 ## 🚀 Features
 - **Authentication:** Secure login with Fetch Rewards API.
 - **Dog Search:** Filter dogs by breed, with pagination and sorting.
